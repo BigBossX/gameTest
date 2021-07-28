@@ -1,7 +1,6 @@
 'use strict';
 
-let random = Math.trunc(Math.random() * 20) + 1;
-let secretNumber = random;
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highScore = 0;
 
@@ -72,7 +71,7 @@ window.addEventListener('keydown', e => {
 
 reset.addEventListener('click', () => {
   score = 20;
-  secretNumber = random;
+  secretNumber = Math.trunc(Math.random() * 20) + 1;
   displayMessage('Start guessing...');
   guessDisplay.value = '';
   displayScore.textContent = score;
