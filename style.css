@@ -124,3 +124,9 @@ h1 {
   left: 25rem;
   top: 5rem;
 }
+
+.enter {
+  font-size: 1.5rem;
+  position: relative;
+  top: 2rem;
+}
